@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000fdf #2d3748;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #2d3748;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 6px;
+  border: 3px solid #2d3748;
+}
+
+
+
+
+.primary-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #2563eb, #1d4ed8);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: all 300ms;
+}
+
+.primary-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.25);
+}
+
+.primary-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(37, 99, 235, 0);
+  transition: all 300ms;
+}
+
+.primary-button:hover::before {
+  background-color: rgba(37, 99, 235, 0.2);
+}
+
+.primary-button::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transform: skewX(30deg) translateX(-200%);
+  transition: transform 500ms;
+}
+
+.primary-button:hover::after {
+  transform: skewX(30deg) translateX(200%);
+}
+
+.primary-button-text {
+  position: relative;
+  font-size: 1.125rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
