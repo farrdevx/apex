@@ -1,0 +1,107 @@
+{
+  "privacy": {
+    "lastUpdated": "November 1, 2024",
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "content": "This Privacy Policy explains how GameHost Pro ('we', 'us', 'our') collects, uses, and protects your personal information when you use our game hosting services. We are committed to ensuring the privacy and security of your data."
+      },
+      {
+        "id": "data-collection",
+        "title": "Information We Collect",
+        "content": "We collect the following types of information:\n\n• Account Information: Email address, username, and password\n• Payment Information: Credit card details (processed securely via third-party providers)\n• Server Data: IP addresses, usage statistics, and performance metrics\n• Communication Records: Support tickets, chat logs, and correspondence\n• Technical Data: Browser type, device information, and access timestamps"
+      },
+      {
+        "id": "data-use",
+        "title": "How We Use Your Information",
+        "content": "Your information is used for:\n\n• Providing and maintaining your hosting services\n• Processing payments and billing\n• Sending service updates and notifications\n• Improving our services and user experience\n• Responding to support requests\n• Ensuring platform security and preventing abuse"
+      },
+      {
+        "id": "data-sharing",
+        "title": "Information Sharing",
+        "content": "We do not sell your personal information. We may share data with:\n\n• Service providers (payment processors, DDoS protection)\n• Law enforcement (when legally required)\n• Business partners (with your explicit consent)\n\nAll third-party sharing is subject to strict data protection agreements."
+      },
+      {
+        "id": "data-security",
+        "title": "Data Security",
+        "content": "We implement industry-standard security measures including:\n\n• Encryption in transit and at rest\n• Regular security audits\n• Access controls and monitoring\n• Secure data centers\n• Employee security training"
+      },
+      {
+        "id": "user-rights",
+        "title": "Your Rights",
+        "content": "You have the right to:\n\n• Access your personal data\n• Correct inaccurate information\n• Request data deletion\n• Export your data\n• Opt-out of marketing communications\n\nContact our privacy team to exercise these rights."
+      }
+    ]
+  },
+  "terms": {
+    "lastUpdated": "November 1, 2024",
+    "sections": [
+      {
+        "id": "acceptance",
+        "title": "Acceptance of Terms",
+        "content": "By using GameHost Pro services, you agree to these Terms of Service. If you disagree with any part of these terms, please do not use our services. We reserve the right to modify these terms at any time, with notice to users."
+      },
+      {
+        "id": "services",
+        "title": "Service Description",
+        "content": "Our services include:\n\n• Game server hosting\n• Server management tools\n• DDoS protection\n• Technical support\n• Automated backups\n• Custom control panel access"
+      },
+      {
+        "id": "account-responsibilities",
+        "title": "Account Responsibilities",
+        "content": "You are responsible for:\n\n• Maintaining account security\n• Keeping payment information current\n• Complying with usage policies\n• Backing up your data\n• Managing server content\n• Reporting security issues"
+      },
+      {
+        "id": "payment-terms",
+        "title": "Payment Terms",
+        "content": "• Payments are processed securely via established providers\n• Services are billed monthly or annually\n• Refunds are available within 24 hours of purchase\n• Late payments may result in service suspension\n• Price changes will be announced 30 days in advance"
+      },
+      {
+        "id": "service-availability",
+        "title": "Service Availability",
+        "content": "We strive for 99.9% uptime but cannot guarantee uninterrupted service. Planned maintenance will be announced in advance. We are not liable for damages caused by service interruptions."
+      },
+      {
+        "id": "termination",
+        "title": "Account Termination",
+        "content": "We may terminate accounts for:\n\n• Policy violations\n• Payment issues\n• Abuse or illegal activity\n• Extended inactivity\n\nUsers may terminate their account at any time through the control panel."
+      }
+    ]
+  },
+  "aup": {
+    "lastUpdated": "November 1, 2024",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Policy Overview",
+        "content": "This Acceptable Use Policy outlines permitted and prohibited uses of GameHost Pro services. Violation of this policy may result in service suspension or termination."
+      },
+      {
+        "id": "prohibited",
+        "title": "Prohibited Activities",
+        "content": "The following are strictly prohibited:\n\n• Illegal content or activities\n• Unauthorized copyright material\n• Malicious software or hacking attempts\n• Network abuse or DoS attacks\n• Resource abuse or cryptocurrency mining\n• Hate speech or harassment\n• Adult or explicit content"
+      },
+      {
+        "id": "compliance",
+        "title": "Compliance Requirements",
+        "content": "Users must:\n\n• Follow all applicable laws and regulations\n• Respect intellectual property rights\n• Maintain appropriate security measures\n• Report violations promptly\n• Cooperate with investigations\n• Keep contact information current"
+      },
+      {
+        "id": "resource-usage",
+        "title": "Resource Usage",
+        "content": "• CPU/RAM usage must not exceed plan limits\n• Network usage must be reasonable\n• Storage is limited to game-related content\n• Backups must not exceed allocated space\n• Database connections must be optimized"
+      },
+      {
+        "id": "enforcement",
+        "title": "Policy Enforcement",
+        "content": "We may take action including:\n\n• Warning notifications\n• Service suspension\n• Account termination\n• Content removal\n• Reporting to authorities\n\nEnforcement decisions are at our discretion."
+      },
+      {
+        "id": "reporting",
+        "title": "Violation Reporting",
+        "content": "Report violations to our abuse team:\n\n• Email: abuse@gamehostpro.com\n• Support ticket: Security category\n• Emergency hotline: For critical issues\n\nAll reports are investigated promptly."
+      }
+    ]
+  }
+}

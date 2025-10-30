@@ -341,10 +341,55 @@ const WebsiteHostingPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-20">
             {plans.map((plan, index) => (
               <PlanCard key={index} plan={plan} />
             ))}
+          </div>
+
+          {/* Comparison Table */}
+          <div className="max-w-6xl mx-auto mt-20">
+            <h3 className="text-2xl md:text-3xl font-bold text-center mb-10">
+              <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                Plan Comparison
+              </span>
+            </h3>
+            <div className="overflow-x-auto">
+              <table className="w-full bg-gray-800/30 rounded-xl border border-gray-700/50">
+                <thead>
+                  <tr className="border-b border-gray-700/50">
+                    <th className="text-left p-4 text-gray-400 font-medium">Feature</th>
+                    <th className="p-4 text-center text-white font-semibold">Starter</th>
+                    <th className="p-4 text-center text-white font-semibold">
+                      <div className="flex items-center justify-center gap-2">
+                        Professional
+                        <Sparkles size={16} className="text-blue-400" />
+                      </div>
+                    </th>
+                    <th className="p-4 text-center text-white font-semibold">Business</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { feature: "Websites", starter: "1", professional: "5", business: "Unlimited" },
+                    { feature: "Storage", starter: "10 GB", professional: "25 GB", business: "50 GB" },
+                    { feature: "Bandwidth", starter: "100 GB", professional: "500 GB", business: "1 TB" },
+                    { feature: "Databases", starter: "1", professional: "10", business: "Unlimited" },
+                    { feature: "Email Accounts", starter: "5", professional: "20", business: "Unlimited" },
+                    { feature: "SSL Certificate", starter: "✓ Free", professional: "✓ Free", business: "✓ Wildcard" },
+                    { feature: "Backups", starter: "Weekly", professional: "Daily", business: "Daily" },
+                    { feature: "Support", starter: "24/7", professional: "24/7 Priority", business: "24/7 Dedicated" },
+                  ].map((row, index) => (
+                    <tr key={index} className="border-b border-gray-700/30 hover:bg-gray-800/50 transition-colors">
+                      <td className="p-4 text-gray-300 font-medium">{row.feature}</td>
+                      <td className="p-4 text-center text-gray-400">{row.starter}</td>
+                      <td className="p-4 text-center text-blue-400 font-medium">{row.professional}</td>
+                      <td className="p-4 text-center text-gray-400">{row.business}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </section>
