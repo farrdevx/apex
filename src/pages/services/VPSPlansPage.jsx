@@ -315,10 +315,55 @@ const VPSPlansPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-20">
             {plans.map((plan, index) => (
               <PlanCard key={index} plan={plan} />
             ))}
+          </div>
+
+          {/* Comparison Table */}
+          <div className="max-w-6xl mx-auto mt-20">
+            <h3 className="text-2xl md:text-3xl font-bold text-center mb-10">
+              <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                Plan Comparison
+              </span>
+            </h3>
+            <div className="overflow-x-auto">
+              <table className="w-full bg-gray-800/30 rounded-xl border border-gray-700/50">
+                <thead>
+                  <tr className="border-b border-gray-700/50">
+                    <th className="text-left p-4 text-gray-400 font-medium">Feature</th>
+                    <th className="p-4 text-center text-white font-semibold">Starter</th>
+                    <th className="p-4 text-center text-white font-semibold">
+                      <div className="flex items-center justify-center gap-2">
+                        Advanced
+                        <Sparkles size={16} className="text-blue-400" />
+                      </div>
+                    </th>
+                    <th className="p-4 text-center text-white font-semibold">Enterprise</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { feature: "RAM", starter: "2 GB", advanced: "4 GB", enterprise: "8 GB" },
+                    { feature: "CPU Cores", starter: "2 Cores", advanced: "4 Cores", enterprise: "6 Cores" },
+                    { feature: "Storage", starter: "50 GB", advanced: "100 GB", enterprise: "200 GB" },
+                    { feature: "Bandwidth", starter: "2 TB", advanced: "5 TB", enterprise: "10 TB" },
+                    { feature: "DDoS Protection", starter: "✓", advanced: "✓ Enhanced", enterprise: "✓ Enterprise" },
+                    { feature: "Backups", starter: "Weekly", advanced: "Daily", enterprise: "Daily" },
+                    { feature: "Support", starter: "24/7", advanced: "24/7 Priority", enterprise: "24/7 Dedicated" },
+                    { feature: "Uptime SLA", starter: "99.9%", advanced: "99.99%", enterprise: "99.99%" },
+                  ].map((row, index) => (
+                    <tr key={index} className="border-b border-gray-700/30 hover:bg-gray-800/50 transition-colors">
+                      <td className="p-4 text-gray-300 font-medium">{row.feature}</td>
+                      <td className="p-4 text-center text-gray-400">{row.starter}</td>
+                      <td className="p-4 text-center text-blue-400 font-medium">{row.advanced}</td>
+                      <td className="p-4 text-center text-gray-400">{row.enterprise}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </section>

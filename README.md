@@ -1,25 +1,30 @@
- __       __                                                        _______   _______              ______  
-|  \     /  \                                                      |       \ |       \            /      \ 
-| $$\   /  $$  ______    _______   _______   ______   __   __   __ | $$$$$$$\| $$$$$$$\  ______  |  $$$$$$\
-| $$$\ /  $$$ /      \  /       \ /       \ /      \ |  \ |  \ |  \| $$  | $$| $$  | $$ /      \ | $$___\$$
-| $$$$\  $$$$|  $$$$$$\|  $$$$$$$|  $$$$$$$|  $$$$$$\| $$ | $$ | $$| $$  | $$| $$  | $$|  $$$$$$\ \$$    \ 
-| $$\$$ $$ $$| $$  | $$ \$$    \ | $$      | $$  | $$| $$ | $$ | $$| $$  | $$| $$  | $$| $$  | $$ _\$$$$$$\
-| $$ \$$$| $$| $$__/ $$ _\$$$$$$\| $$_____ | $$__/ $$| $$_/ $$_/ $$| $$__/ $$| $$__/ $$| $$__/ $$|  \__| $$
-| $$  \$ | $$ \$$    $$|       $$ \$$     \ \$$    $$ \$$   $$   $$| $$    $$| $$    $$ \$$    $$ \$$    $$
- \$$      \$$  \$$$$$$  \$$$$$$$   \$$$$$$$  \$$$$$$   \$$$$$\$$$$  \$$$$$$$  \$$$$$$$   \$$$$$$   \$$$$$$ 
+# GameHost - VPS & Hosting Website
 
+Modern, responsive React website for VPS and hosting services, built with Vite and Tailwind CSS.
 
----
+## Features
 
-🔥 This addon for Pterodactyl was purchased using carding just to spite the developers! 🔥
-💸 I did not lose a single penny – suck it! 💸
+- ⚡ Lightning-fast performance with Vite
+- 🎨 Modern UI with Tailwind CSS
+- 📱 Fully responsive design
+- 🎯 Multiple service pages (VPS, Web Hosting, Game Servers)
+- 💫 Smooth animations and transitions
+- 📊 Pricing comparison tables
+- 🌍 Multi-location support
+- 💬 Customer testimonials
+- 📧 Contact forms
+- 🔒 SEO optimized
 
-🚀 Этот аддон для Pterodactyl был приобретен с использованием кардинга назло разработчикам! 🚀
-💰 Я совсем ничего не потерял – сосите! 💰
+## Tech Stack
 
----
+- **React 18** - UI library
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router DOM** - Client-side routing
+- **Lucide React** - Icon library
+- **React Helmet** - Head tag management
 
-# GameHost Hosting Template Setup Guide
+## Setup Guide
 
 ## Prerequisites
 Before starting, ensure you have installed:
